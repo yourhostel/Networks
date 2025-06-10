@@ -21,7 +21,7 @@ def main():
 
     for ip, cidr in tests:
         result = is_network_address(ip, cidr)
-        print(f"{ip}/{cidr} => {'✅ Network address' if result else '❌ Not a network address'}")
+        print(f"{ip}/{cidr} => {'Network address' if result else 'Not a network address'}")
 
 if __name__ == "__main__":
     main()
